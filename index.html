@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--manifest.json-->
+	<link rel="manifest" href="manifest.json">
+	<!--/manifest-->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="apple-touch-icon" href="icons/icon.png" type="image/png">
+	<link rel="shortcut icon" href="icons/icon.png" type="image/x-icon">
+	<meta name="apple-mobile-web-app-status-bar" content="#db4938">
+	<meta name="description" content="a profit calculator to calculate your money">
+	<meta name="description" content="a calculatorto calculate your money">
+	<meta name="theme-color" content="#db4938">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Profit Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+<main>
+
+<div class="wrapper">
+	<div class="header">
+		<h1>Profiter </h1>
+		<p class="tag">Percentage Calculator.</p>
+	</div>
+
+<div class="amount">
+<input type="text" placeholder="enter amount involve" id="text">
+<p class="cent">$</p>
+</div>
+
+
+
+<div class="percentage">
+<input type="text" placeholder="percentage cut" id="cut">
+<p class="cent">%</p>
+</div>
+
+<div class="info">
+	<p>Calculating :<span id="pert">0</span>% of <span id="price">0</span></p>
+</div>
+
+
+<div class="output">
+<p id="endamt">Amount :</p>
+</div>
+
+<div class="balance">
+	<p id="balance">Balance : </p>
+</div>
+
+</div>
+
+<div class="credit">
+	<p>Created by <span class="name">AKALE GODLOVE</span>
+		 &copy; 2021-<span id="year"></span>. </p>
+</div>
+</main>
+
+<script src="main.js"></script>
+</body>
+</html>

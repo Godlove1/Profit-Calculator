@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+}
+
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+.header{ 
+	margin: 30px; 
+	text-align: center;
+.tag{
+	margin-top: -30px;
+	text-align: center;
+	color: grey;
+}
+h1{
+	font-size: 3.4em;
+	margin: 20px 0;
+}
+}
+#text,#cut,#endamt,#balance{
+	width: 280px;
+	height: 50px;
+	border-radius: 20px;
+	border: 2px solid silver;
+	padding: 10px ;
+	margin: 8px 0;
+	color: rgb(116, 112, 112);
+	text-transform: capitalize;
+
+	&:focus{
+outline: none;
+	}
+}
+#pert,#price{
+	width: 50px;
+	height: 20px;
+	border: 1px solid silver;
+	border-radius: 10px;
+	padding: 5px 8px;
+	margin: 0 8px;
+	color: rgb(73, 71, 71);
+}
+.info{
+	margin: 20px 0;
+
+	p{
+		color: rgb(117, 113, 113);
+	}
+}
+.wrapper{
+	max-width: 400px;
+	border: 1px solid silver;
+	margin-top: 70px;
+	padding: 20px;
+	border-radius: 30px;
+	box-shadow: 0 0 80px grey;
+}
+.credit{
+	margin: 100px;
+	.name{
+		border-bottom: 2px solid grey;
+	}
+}
+.amount,.percentage{
+	position: relative;
+
+	.cent{
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		font-size: 1.3em;
+		color: rgb(128, 123, 123);
+	}
+}
